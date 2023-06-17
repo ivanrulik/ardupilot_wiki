@@ -104,3 +104,5 @@ This takes 421MB + 162MB = 583MB of storage at this point.
 Enable DDS on ArduPilot, and run it. 
 Run the micro ros agent on the Pi.
 Echo topics.
+
+TODO maybe add figures for the process
