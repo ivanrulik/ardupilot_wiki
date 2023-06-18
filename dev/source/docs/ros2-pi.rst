@@ -164,7 +164,7 @@ The steps to prepare a ROS 2 workspace and build micro ros are:
    mkdir ap_ros2_ws
    cd ap_ros2_ws 
    # donwload and build microros
-   git clone -b humble https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
+   git clone -b humble https://github.com/micro-ROS/micro-ROS-Agent.git src/micro-ROS-Agent
    sudo rosdep init
    rosdep update && rosdep install --from-paths src --ignore-src -y
    colcon build
